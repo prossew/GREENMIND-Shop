@@ -1,0 +1,50 @@
+.header,
+.container {
+  display: flex;
+  padding-top: 48px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__title {
+  font-family: 'Quella', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.header__title a {
+  text-decoration: none;
+}
+
+.header__list {
+  display: flex;
+  gap: 48px;
+}
+
+.header__list a,
+li {
+  text-decoration: none;
+  color: #000;
+  list-style: none;
+}
+
+.header__icons {
+  display: flex;
+  gap: 30px;
+}
+
+.header__list li:nth-last-child(-n + 2) a {
+  color: #1e1e1e80;
+}
+
+.header__border {
+  width: 0;        /* Убираем ширину */
+  height: 24px;    /* Задаем высоту линии */
+  border-left: 1px solid #000; /* Рисуем линию слева */
+  margin-left: 10px; /* Отступ слева, если нужно */
+}

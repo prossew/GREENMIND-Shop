@@ -1,0 +1,64 @@
+.best-selling {
+  display: flex;
+  padding-top: 97px;
+}
+
+.best-selling__block {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.best-selling__title {
+  font-size: 32px;
+  font-weight: 700;
+  max-width: 256px;
+}
+
+.best-selling__text p {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 200px;
+  margin-top: 12px;
+  color: #1e1e1e80;
+}
+
+.best-selling__button-btn img {
+  width: 24px;
+  height: 20px;
+  padding-top: 11px;
+}
+
+.best-selling__button-btn {
+  width: 170px;
+  height: 51px;
+  border: none;
+  background-color: #c1dcdc;
+  border-radius: 8px;
+  margin-top: 24px;
+  font-size: 18px;
+}
+
+.best-selling__product {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+gap: 50px;
+
+}
+
+.best-selling__card {
+  border-radius: 12px;
+}
+
+.best-selling__name {
+  color: #1e1e1e;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+.best-selling__price {
+font-size: 18px;
+color: #1E1E1E80;
+}
