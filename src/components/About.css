@@ -1,0 +1,55 @@
+.about__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 113px;
+}
+
+.about__title {
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+.about__text {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  color: #1e1e1e80;
+  margin-top: 12px;
+}
+
+.about__product {
+  display: flex;
+  margin-top: 48px;
+  gap: 24px;
+}
+
+.about__card {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 400px;
+}
+
+.about__img {
+  width: 96px;
+  height: 96px;
+}
+
+.about__name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.about__label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e1e1e80;
+  margin-top: 24px;
+}

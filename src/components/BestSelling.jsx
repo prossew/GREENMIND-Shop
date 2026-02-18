@@ -2,7 +2,7 @@ import './BestSelling.css';
 import bestsellingArrow from '../assets/images/Bestselling-arrow.svg';
 import NaturalPlants from '../assets/images/Natural-Plants.png';
 import ArtificialCactus from '../assets/images/Artificial-cactus.png';
-import ArtificialPlants from '../assets/images/Artificial- Plants.png';
+import ArtificialPlants from '../assets/images/Artificial-Plants.png';
 
 function BestSelling() {
   return (
