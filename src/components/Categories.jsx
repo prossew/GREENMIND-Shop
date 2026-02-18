@@ -2,6 +2,7 @@ import './Categories.css';
 import categoriesNatural from '../assets/images/categories-natural.png';
 import categoriesAccessories from '../assets/images/categories-accessories.png';
 import categoriesArtificial from '../assets/images/categories-artificial.png';
+import bestsellingArrow from '../assets/images/Bestselling-arrow.svg';
 
 function Categories() {
   return (
@@ -13,35 +14,42 @@ function Categories() {
         </div>
       </div>
       <div className="categories__content">
-        <div className="categories__item">
-          <img
-            className="categories__img"
-            src={categoriesNatural}
-            alt="flower"
-          />
-          <p className="categories__label">Natural Plants</p>
+        <div className="categories__items">
+          <div className="categories__item">
+            <img
+              className="categories__img"
+              src={categoriesNatural}
+              alt="flower"
+            />
+            <p className="categories__label">Natural Plants</p>
+          </div>
+
+          <div className="categories__item">
+            <img
+              className="categories__photo"
+              src={categoriesAccessories}
+              alt="flower"
+            />
+            <p className="categories__label">Natural Plants</p>
+            <p className="categories__text">
+              Horem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+
+          <div className="categories__item">
+            <img
+              className="categories__img"
+              src={categoriesArtificial}
+              alt="flower"
+            />
+            <p className="categories__label">Natural Plants</p>
+          </div>
         </div>
 
-        <div className="categories__item">
-          <img
-            className="categories__photo"
-            src={categoriesAccessories}
-            alt="flower"
-          />
-          <p className="categories__label">Natural Plants</p>
-          <p className="categories__text">
-            Horem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </div>
-
-        <div className="categories__item">
-          <img
-            className="categories__img"
-            src={categoriesArtificial}
-            alt="flower"
-          />
-          <p className="categories__label">Natural Plants</p>
-        </div>
+        <button className="categories__button">
+          <span>Explore</span>
+          <img src={bestsellingArrow} alt="arrow" />
+        </button>
       </div>
     </section>
   );
