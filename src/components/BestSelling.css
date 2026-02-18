@@ -40,11 +40,10 @@
 }
 
 .best-selling__product {
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-gap: 50px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 50px;
 }
 
 .best-selling__card {
@@ -55,10 +54,9 @@ gap: 50px;
   color: #1e1e1e;
   font-size: 18px;
   font-weight: 500;
-
 }
 
 .best-selling__price {
-font-size: 18px;
-color: #1E1E1E80;
+  font-size: 18px;
+  color: #1e1e1e80;
 }

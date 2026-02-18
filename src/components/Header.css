@@ -14,7 +14,6 @@
   color: #000;
   display: flex;
   justify-content: flex-start;
-
 }
 
 .header__title a {
@@ -43,8 +42,8 @@ li {
 }
 
 .header__border {
-  width: 0;        /* Убираем ширину */
-  height: 24px;    /* Задаем высоту линии */
+  width: 0; /* Убираем ширину */
+  height: 24px; /* Задаем высоту линии */
   border-left: 1px solid #000; /* Рисуем линию слева */
   margin-left: 10px; /* Отступ слева, если нужно */
 }

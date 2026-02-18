@@ -1,0 +1,44 @@
+.categories__block {
+  padding-top: 165px;
+  text-align: center;
+}
+
+.categories__title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.categories__text {
+  padding-top: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #1e1e1e80;
+  text-align: center;
+  max-width: 352px;
+}
+
+.categories__content {
+  background-color: #c1dcdc;
+  width: 100%;
+  min-height: 841px;
+  margin-top: 96px;
+  display: flex;
+  justify-content: center;
+  gap: 96px;
+}
+
+.categories__label {
+  font-weight: 700;
+  font-size: 18px;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+.categories__img {
+  position: relative;
+  bottom: 48px;
+}
+
+.categories__photo {
+  margin-top: 48px;
+}

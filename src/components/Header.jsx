@@ -2,20 +2,24 @@ import './Header.css';
 
 import cartIcon from '../assets/images/Cart.svg';
 import personIcon from '../assets/images/Person.svg';
-import navIcon from '../assets/images/Nav.svg'
+import navIcon from '../assets/images/Nav.svg';
 
 function Header() {
   return (
     <header className="header">
       <div className="container">
-       <a href="#"><h1 className="header__title">GREENMIND</h1></a> 
+        <a href="#">
+          <h1 className="header__title">GREENMIND</h1>
+        </a>
         <nav>
           <ul className="header__list">
             <li>
               <a href="#">Home</a>
             </li>
             <li>
-              <a className=""href="#">Products</a>
+              <a className="" href="#">
+                Products
+              </a>
             </li>
             <li>
               <a href="#">Contacts</a>
@@ -23,16 +27,17 @@ function Header() {
           </ul>
         </nav>
         <div className="header__icons">
-            <a href="#">
-                <img src={cartIcon} alt="Cart"/>
-            </a>
-            <a href="#">
-                <img src={personIcon} alt="Person"/>
-            </a>
-                <div className="header__border"></div>
-            <a href="#"><img src={navIcon} alt="navigation"/></a>
+          <a href="#">
+            <img src={cartIcon} alt="Cart" />
+          </a>
+          <a href="#">
+            <img src={personIcon} alt="Person" />
+          </a>
+          <div className="header__border"></div>
+          <a href="#">
+            <img src={navIcon} alt="navigation" />
+          </a>
         </div>
-
       </div>
     </header>
   );
