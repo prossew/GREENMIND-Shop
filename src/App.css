@@ -22,8 +22,10 @@ body {
   font-style: normal;
 }
 
-.container {
-  margin: auto;
-  width: 1440px;
-  padding: 0 15px;
+
+  .container {
+    margin: auto;
+    max-width: 1440px;
+    padding: 0 15px;
 }
+
