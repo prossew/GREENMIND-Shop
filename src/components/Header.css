@@ -57,3 +57,55 @@ li {
   border-left: 1px solid #000;
   margin-left: 10px;
 }
+
+@media (max-width: 1200px) {
+  .header__block {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__block {
+    gap: 30px;
+  }
+  .header__title {
+    font-size: 20px;
+  }
+  .header__list {
+    gap: 30px;
+  }
+  .header__icons {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__block {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .header__title {
+    font-size: 18px;
+  }
+  .header__list {
+    gap: 20px;
+  }
+  .header__icons {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__title {
+    font-size: 14px;
+  }
+  .header__list {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+  }
+  .header__icons {
+    gap: 30px;
+  }
+}

@@ -8,24 +8,9 @@ body {
   width: 100%;
 }
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('./assets/fonts/Poppins-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Quella';
-  src: url('./assets/fonts/Quella.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-  .container {
-    margin: auto;
-    max-width: 1440px;
-    padding: 0 15px;
+.container {
+  margin: auto;
+  max-width: 1440px;
+  padding: 0 15px;
 }
 
