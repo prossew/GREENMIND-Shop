@@ -62,15 +62,12 @@
 }
 
 @media (max-width: 1200px) {
-  .best-selling,
-  .container {
-    gap: 50px;
-    display: flex;
-    flex-direction: column;
+  .best-selling__block {
+    display: grid;
   }
-
   .best-selling__product {
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -82,7 +79,7 @@
   .best-selling .container {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    display: grid;
   }
 
   .best-selling__block {
@@ -97,6 +94,12 @@
 }
 
 @media (max-width: 768px) {
+  .best-selling__block {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
   .best-selling__title p {
     font-size: 26px;
   }
@@ -108,6 +111,11 @@
   .best-selling__product {
     flex-wrap: wrap;
     gap: 40px;
+  }
+
+  .best-selling__product {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .best-selling__card {

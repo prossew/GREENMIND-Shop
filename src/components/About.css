@@ -53,3 +53,66 @@
   color: #1e1e1e80;
   margin-top: 24px;
 }
+
+@media (max-width: 1200px) {
+  .about__product {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about__card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__block {
+    margin-top: 60px;
+  }
+
+  .about__title {
+    font-size: 26px;
+  }
+
+  .about__text {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .about__product {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__card {
+    width: 90%;
+  }
+
+  .about__img {
+    width: 72px;
+    height: 72px;
+  }
+
+  .about__name {
+    font-size: 16px;
+  }
+
+  .about__label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__title {
+    font-size: 22px;
+  }
+
+  .about__text {
+    font-size: 14px;
+  }
+
+  .about__card {
+    width: 100%;
+  }
+}

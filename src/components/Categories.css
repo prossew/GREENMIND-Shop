@@ -68,6 +68,8 @@
 @media (max-width: 1200px) {
   .categories__items {
     gap: 60px;
+    display: grid;
+    grid-template-columns: no-repeat(2,1fr);
   }
 
   .categories__content {
