@@ -21,7 +21,7 @@ It includes a custom swipe reviews slider and adaptive layout using CSS media qu
 
 - React
 -  JavaScript (ES6+)
-- SS3 (Flexbox, Media Queries)
+- СSS3 (Flexbox, Media Queries)
 
 ---
 
