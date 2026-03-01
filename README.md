@@ -32,3 +32,6 @@ git clone https://github.com/prossew/greenmind.git
 cd greenmind
 npm install
 npm start
+
+## 🌐 Demo
+Check out the live version of the project on Vercel: https://greenmind-shop.vercel.app/
