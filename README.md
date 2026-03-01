@@ -25,6 +25,9 @@ It includes a custom swipe reviews slider and adaptive layout using CSS media qu
 
 ---
 
+## 🌐 Demo
+Check out the live version of the project on Vercel: https://greenmind-shop.vercel.app/
+
 ## 🔧 Installation
 
 ```bash
@@ -33,6 +36,3 @@ cd greenmind
 npm install
 npm start
 ```
-
-## 🌐 Demo
-Check out the live version of the project on Vercel: https://greenmind-shop.vercel.app/
