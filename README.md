@@ -1,38 +1,21 @@
-# 🌿 GREENMIND - Plant Store Website
+# GREENMIND - Plant Store
 
-## 📌 Description
+Responsive plant store website with custom swipe slider and Mobile First layout.
 
-GREENMIND is a modern and fully responsive plant store website built with **React**.  
-The project focuses on clean design, smooth user experience, and responsive layout across all devices.
+## Preview
+![GREENMIND](./preview.png)
 
-It includes a custom swipe reviews slider and adaptive layout using CSS media queries.
+## Features
+- Custom swipe slider built from scratch (mouse & touch)
+- Mobile First responsive layout
+- BEM methodology
+- No UI libraries - pure CSS
 
-## 🚀 Features
+## Tech Stack
+React, JavaScript (ES6+), SCSS, BEM, Vite, Figma
 
-- ⚛️ Built with React (Functional Components & Hooks)
-- 📱 Fully responsive design
-- 🎯 Custom swipe slider (mouse & touch support)
-- 🎨 Modern UI
-- 🧩 Component-based architecture
-- 💡 Structured CSS
+## Live Demo
+https://greenmind-shop.vercel.app/
 
-
-## 🛠 Technologies
-
-- React
--  JavaScript (ES6+)
-- СSS3 (Flexbox, Media Queries)
-
----
-
-## 🌐 Demo
-Check out the live version of the project on Vercel: https://greenmind-shop.vercel.app/
-
-## 🔧 Installation
-
-```bash
-git clone https://github.com/prossew/greenmind.git
-cd greenmind
-npm install
-npm start
-```
+## Run locally
+...
