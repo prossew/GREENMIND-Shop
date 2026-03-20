@@ -3,7 +3,7 @@
 Responsive plant store website with custom swipe slider and Mobile First layout.
 
 ## Preview
-![GREENMIND](./preview.png)
+![GREENMIND](./public/preview.png)
 
 ## Features
 - Custom swipe slider built from scratch (mouse & touch)
